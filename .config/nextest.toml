@@ -1,0 +1,8 @@
+experimental = ["setup-scripts"]
+
+[script.setupz]
+command = './tests/setup_tmp.sh'
+
+[[profile.default.scripts]]
+platform = { host = "cfg(unix)" }
+setup = 'setupz'

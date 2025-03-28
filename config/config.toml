@@ -1,0 +1,27 @@
+# Possible values: Boolean
+with_ws = true
+
+# Possible values: String
+excluded_domains = ["*mozilla*", "*firefox*"]
+
+# Possible values:
+#       app audio font img msg model multipart txt video
+excluded_content_types = ["audio", "font", "img", "video"]
+
+# Possible values: String
+excluded_extensions = ["css", "js"]
+
+[addons]
+[addons.ffuf]
+name = "ffuf"
+prefix = "z-"
+request_flag = "-request"
+http_flag = "-request-proto http"
+add_flag = "-w"
+
+[addons.sqlmap]
+name = "sqlmap"
+prefix = "q-"
+request_flag = "-r"
+https_flag = "--force-ssl"
+add_flag = "--batch --dbs"

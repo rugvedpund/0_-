@@ -1,0 +1,11 @@
+# include and exclude domains are mutually exclusive
+# if include is set, then exclude is ignored
+# Supports wildcard 
+
+# List of domains to intercept
+included_domains = ["*.google.com:443", "www.facebook.com:80"]
+
+# List of domains to not intercept
+excluded_domains = ["*.example.com"]
+
+no_ws = true

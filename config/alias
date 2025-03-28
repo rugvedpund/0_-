@@ -1,0 +1,4 @@
+alias interceptor='vim --cmd "let g:zxc_winame=\"interceptor\""'
+alias vhistory='vim -M history.his --cmd "let g:zxc_winame=\"history\""'
+alias repeater='vim --cmd "let g:zxc_winame=\"repeater\""'
+alias addons='vim --cmd "let g:zxc_winame=\"addons\""'
