@@ -8,3 +8,5 @@
     - OR zer0_-
 
 - a global julia REPL for the heaven of a global screenshot-based X window manager with transparent access to the wm, tmux, nvim, vim-mode, etc. layers via a single IPC api. the screen state is always readonly and immutable. any changes to the screen are made by zxr 
+
+- do not use conda julia, the upstream master is the one to follow counter-intuitively for 90% of the community. why? ask the 10% the about their risk-aversion.
